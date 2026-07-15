@@ -1,0 +1,7 @@
+dw_lab_6730202647:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: /workspaces/DW_lab_6730202647/northwind_dw_duckdb3/duckdb/dev.duckdb
+      threads: 1
