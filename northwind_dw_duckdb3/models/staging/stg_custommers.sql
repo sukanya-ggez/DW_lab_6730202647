@@ -4,5 +4,5 @@ with source as (
 )
 select
     *,
-    current_localtimestamp() as ingestion_timestamp ##ให้เพิ่มคอลัมน์ ingestion_timestamp เพื่อเก็บเวลาที่ข้อมูลถูกดึงเข้ามา
+    current_localtimestamp() as ingestion_timestamp
 from source
